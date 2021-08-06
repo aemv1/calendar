@@ -1,0 +1,198 @@
+<!--
+Amaryllis Medero-Vargas - Created 26 June, 2020
+setup.xhtml - Lab Assignment 2 office hours set up
+http://helios.ite.gmu.edu/~amederov/IT207/assignment2/setup.xhtml
+-->
+<h1>Office Hours Setup Form</h1>
+<form action="calendar.php" method="post">
+<div id="calendarcontainer">
+<div class='row'>
+	<div class='weekday'>Day:</div>
+	<div class='weekday'>Monday</div>
+	<div class='weekday'>Tuesday</div>
+	<div class='weekday'>Wednesday</div>
+	<div class='weekday'>Thursday</div>
+	<div class='weekday'>Friday</div>
+</div>
+<div class="row">
+	<div class='column'>Time:</div>
+	<div class="column">
+			<select name="list_box_monday[]" size="5" multiple>
+				<option value="700am">7:00am</option>
+				<option value="730am">7:30am</option>
+				<option value="800am">8:00am</option>
+				<option value="830am">8:30am</option>
+				<option value="900am">9:00am</option>
+				<option value="930am">9:30am</option>
+				<option value="1000am">10:00am</option>
+				<option value="1030am">10:30am</option>
+				<option value="1100am">11:00am</option>
+				<option value="1130am">11:30am</option>
+				<option value="1200pm">12:00pm</option>
+				<option value="1230pm">12:30pm</option>
+				<option value="100pm">1:00pm</option>
+				<option value="130pm">1:30pm</option>
+				<option value="200pm">2:00pm</option>
+				<option value="230pm">2:30pm</option>
+				<option value="300pm">3:00pm</option>
+				<option value="330pm">3:30pm</option>
+				<option value="400pm">4:00pm</option>
+				<option value="430pm">4:30pm</option>
+				<option value="500pm">5:00pm</option>
+				<option value="530pm">5:30pm</option>
+				<option value="600pm">6:00pm</option>
+				<option value="630pm">6:30pm</option>
+				<option value="700pm">7:00pm</option>
+				<option value="730pm">7:30pm</option>
+				<option value="800pm">8:00pm</option>
+				<option value="830pm">8:30pm</option>
+				<option value="900pm">9:00pm</option>
+				<option value="930pm">9:30pm</option>
+			</select>
+			<input type="hidden" value="list_box_monday[]" name="Monday" />
+	</div>
+	<div class="column">
+			<select name="list_box_tuesday[]" size="5" multiple>
+				<option value="700am">7:00am</option>
+				<option value="730am">7:30am</option>
+				<option value="800am">8:00am</option>
+				<option value="830am">8:30am</option>
+				<option value="900am">9:00am</option>
+				<option value="930am">9:30am</option>
+				<option value="1000am">10:00am</option>
+				<option value="1030am">10:30am</option>
+				<option value="1100am">11:00am</option>
+				<option value="1130am">11:30am</option>
+				<option value="1200pm">12:00pm</option>
+				<option value="1230pm">12:30pm</option>
+				<option value="100pm">1:00pm</option>
+				<option value="130pm">1:30pm</option>
+				<option value="200pm">2:00pm</option>
+				<option value="230pm">2:30pm</option>
+				<option value="300pm">3:00pm</option>
+				<option value="330pm">3:30pm</option>
+				<option value="400pm">4:00pm</option>
+				<option value="430pm">4:30pm</option>
+				<option value="500pm">5:00pm</option>
+				<option value="530pm">5:30pm</option>
+				<option value="600pm">6:00pm</option>
+				<option value="630pm">6:30pm</option>
+				<option value="700pm">7:00pm</option>
+				<option value="730pm">7:30pm</option>
+				<option value="800pm">8:00pm</option>
+				<option value="830pm">8:30pm</option>
+				<option value="900pm">9:00pm</option>
+				<option value="930pm">9:30pm</option>
+			</select>
+			<input type="hidden" value="list_box_tuesday[]" name="Tuesday" />
+	</div>
+	<div class="column">
+			<select name="list_box_wednesday[]" size="5" multiple>
+				<option value="700am">7:00am</option>
+				<option value="730am">7:30am</option>
+				<option value="800am">8:00am</option>
+				<option value="830am">8:30am</option>
+				<option value="900am">9:00am</option>
+				<option value="930am">9:30am</option>
+				<option value="1000am">10:00am</option>
+				<option value="1030am">10:30am</option>
+				<option value="1100am">11:00am</option>
+				<option value="1130am">11:30am</option>
+				<option value="1200pm">12:00pm</option>
+				<option value="1230pm">12:30pm</option>
+				<option value="100pm">1:00pm</option>
+				<option value="130pm">1:30pm</option>
+				<option value="200pm">2:00pm</option>
+				<option value="230pm">2:30pm</option>
+				<option value="300pm">3:00pm</option>
+				<option value="330pm">3:30pm</option>
+				<option value="400pm">4:00pm</option>
+				<option value="430pm">4:30pm</option>
+				<option value="500pm">5:00pm</option>
+				<option value="530pm">5:30pm</option>
+				<option value="600pm">6:00pm</option>
+				<option value="630pm">6:30pm</option>
+				<option value="700pm">7:00pm</option>
+				<option value="730pm">7:30pm</option>
+				<option value="800pm">8:00pm</option>
+				<option value="830pm">8:30pm</option>
+				<option value="900pm">9:00pm</option>
+				<option value="930pm">9:30pm</option>
+			</select>
+			<input type="hidden" value="list_box_wednesday[]" name="Wednesday" />
+	</div>
+	<div class="column">
+			<select name="list_box_thursday[]" size="5" multiple>
+				<option value="700am">7:00am</option>
+				<option value="730am">7:30am</option>
+				<option value="800am">8:00am</option>
+				<option value="830am">8:30am</option>
+				<option value="900am">9:00am</option>
+				<option value="930am">9:30am</option>
+				<option value="1000am">10:00am</option>
+				<option value="1030am">10:30am</option>
+				<option value="1100am">11:00am</option>
+				<option value="1130am">11:30am</option>
+				<option value="1200pm">12:00pm</option>
+				<option value="1230pm">12:30pm</option>
+				<option value="100pm">1:00pm</option>
+				<option value="130pm">1:30pm</option>
+				<option value="200pm">2:00pm</option>
+				<option value="230pm">2:30pm</option>
+				<option value="300pm">3:00pm</option>
+				<option value="330pm">3:30pm</option>
+				<option value="400pm">4:00pm</option>
+				<option value="430pm">4:30pm</option>
+				<option value="500pm">5:00pm</option>
+				<option value="530pm">5:30pm</option>
+				<option value="600pm">6:00pm</option>
+				<option value="630pm">6:30pm</option>
+				<option value="700pm">7:00pm</option>
+				<option value="730pm">7:30pm</option>
+				<option value="800pm">8:00pm</option>
+				<option value="830pm">8:30pm</option>
+				<option value="900pm">9:00pm</option>
+				<option value="930pm">9:30pm</option>
+			</select>
+			<input type="hidden" value="list_box_thursday[]" name="Thursday" />
+	</div>
+	<div class="column">
+			<select name="list_box_friday[]" size="5" multiple="multiple">
+				<option value="700am">7:00am</option>
+				<option value="730am">7:30am</option>
+				<option value="800am">8:00am</option>
+				<option value="830am">8:30am</option>
+				<option value="900am">9:00am</option>
+				<option value="930am">9:30am</option>
+				<option value="1000am">10:00am</option>
+				<option value="1030am">10:30am</option>
+				<option value="1100am">11:00am</option>
+				<option value="1130am">11:30am</option>
+				<option value="1200pm">12:00pm</option>
+				<option value="1230pm">12:30pm</option>
+				<option value="100pm">1:00pm</option>
+				<option value="130pm">1:30pm</option>
+				<option value="200pm">2:00pm</option>
+				<option value="230pm">2:30pm</option>
+				<option value="300pm">3:00pm</option>
+				<option value="330pm">3:30pm</option>
+				<option value="400pm">4:00pm</option>
+				<option value="430pm">4:30pm</option>
+				<option value="500pm">5:00pm</option>
+				<option value="530pm">5:30pm</option>
+				<option value="600pm">6:00pm</option>
+				<option value="630pm">6:30pm</option>
+				<option value="700pm">7:00pm</option>
+				<option value="730pm">7:30pm</option>
+				<option value="800pm">8:00pm</option>
+				<option value="830pm">8:30pm</option>
+				<option value="900pm">9:00pm</option>
+				<option value="930pm">9:30pm</option>
+			</select>
+			<input type="hidden" value="list_box_friday[]" name="Friday" />
+	</div>
+</div>
+</div>
+<input type="reset" name="reset"/>
+<input type="submit" name="submit"/>
+</form>

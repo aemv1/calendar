@@ -1,0 +1,34 @@
+/*
+Amaryllis Medero-Vargas - Created 24 June, 2020
+lab2styles.css - Lab Assignment 2 styles css
+http://helios.ite.gmu.edu/~amederov/IT207/assignment2/lab2styles.css
+*/
+#monthandyear{
+	text-align: center;
+	background: lightgreen;
+}
+#calendarcontainer{
+
+}
+.row{
+
+}
+.weekday{
+	float:left;
+    width:13.5%;
+    position: relative;
+    border-style: solid;
+}
+.column{
+	float:left;
+    width:13.5%;
+    position: relative;
+    border-style: solid;
+    height: 100px;
+    overflow-y: auto;
+    font-size: small;
+    /*flex-direction: column;
+    height: auto;
+    min-height: 100px;
+    overflow: scroll;*/
+}
